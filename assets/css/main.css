@@ -8,7 +8,6 @@
     --maincolor:#2DCACF;
 }
 .darkmode{
-
     border-radius: 50%;
     padding: 20px;
     align-items: center;
@@ -43,7 +42,10 @@ body{
     margin: 10px 0px;
     font-size: 18px;
     & a{
-    color: #2DCACF;
+    color: var(--maincolor);
+        & span{
+        color: black;
+        }
     }
 }
 .home .container .row .logo a{
